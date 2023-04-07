@@ -6,7 +6,7 @@ const cors = require('cors')
 const KJUR = require('jsrsasign')
 
 const app = express()
-const port = process.env.PORT || 4000
+const port = process.env.PORT || 3000
 
 app.use(bodyParser.json(), cors())
 app.options('*', cors())
